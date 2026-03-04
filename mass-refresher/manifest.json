@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Mass Refresher",
+  "version": "1.0.0",
+  "description": "Refresh all tabs in all windows with one click.",
+  "action": {
+    "default_title": "Refresh all tabs (all windows)"
+  },
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "permissions": ["tabs"]
+}
